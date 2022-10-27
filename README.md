@@ -3,7 +3,7 @@
 # Description
 
 ### Project origin
-Books_registration_system is a backend project which i performed as one of the task given by my industrial supervisor at my Industrial Practical Training serving time at Amatics Technologies Company ltd.
+Books_registration_system is a backend project which i performed as one of the project given by my senior supervisors at Amatics Technologies Company ltd.
 
 ### What it can do
 In this project a user can register a book by its name and the book will be saved in a database via Prisma ORM with POST http request pointing an certain server end point, fetch all books which were stored in database via GET http request pointing a certain endpoint in the server, fetch a single book saved at via GET http request with book's id passed as params in the request pointing a certain server endpoint, edit a single book stored in a database via PUT http request with book's id as params in the request pointing a certain server endpoint and delete a single book stored in database via DELETE http request with book's id as params in the request pointing a certain server endpoint.
