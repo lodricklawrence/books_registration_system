@@ -3,23 +3,13 @@
 # Description
 
 ### Project origin
-Books_registration_system is a backend project which i performed as one of the project given by my senior supervisors at Amatics Technologies Company ltd.
+Books_registration_system is a backend project which i performed as one of the project given by my senior supervisors
 
 ### What it can do
 In this project a user can register a book by its name and the book will be saved in a database via Prisma ORM with POST http request pointing an certain server end point, fetch all books which were stored in database via GET http request pointing a certain endpoint in the server, fetch a single book saved at via GET http request with book's id passed as params in the request pointing a certain server endpoint, edit a single book stored in a database via PUT http request with book's id as params in the request pointing a certain server endpoint and delete a single book stored in database via DELETE http request with book's id as params in the request pointing a certain server endpoint.
 
 ### Technology used
-In this project i used javascript programming language by implementing one of its backend framework called Node.Js with express.js.
-I used javascript as because its one among the best powerfull programming language.
-I used Node.js with express.js as a backend javascript framework because is one among best multi-threading server-side performance for users http requests.
-
-I also used Object Relational Mapping(ORM) called Prisma in performing books Creation,Read,Update and Delete operations to the database from the server, I used this ORM
-because it is easier to implement instead of writting SQL queries.
-
-### Challenges and future adding features
-One of the challenges i faced in this project is in using of Prisma ORM because it was new to me and i just came from learning it with no any experience.
-
-One of the new feature i will add in this project is implementing best authentication for all server endpoints and adding a frontend part.
+Node.Js with express.js, Prisma ORM
 
 # Installation guide
 1. Install Node.js v16.14.2 in your local computer [Node Js](https://nodejs.org/en/).
